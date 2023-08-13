@@ -3,9 +3,9 @@
 This project is designed for learners who are using Bootstrap for the first time and is a compliment to my coding demo; however, if you want to learn Bootstrap by jumping right in with a simple project, this is for you!  All you need is a basic understanding of HTML and CSS.
 
 ## What is Bootstrap?
-Bootstrap is one of the oldest and most popular CSS frameworks.  Essentially, it is a collection of predefined classes with CSS styles and some JavaScript functions.  These classes then can be added to HTML elements to apply those styles. Bootstrap can be either imported into your project (via a CDN link) or installed with `npm` or other package manager.
+Bootstrap is one of the oldest and most popular CSS frameworks.  Essentially, it is a collection of predefined classes with CSS styles and some JavaScript functions.  These classes can then be added to HTML elements to apply those styles. Bootstrap can be either imported into your project (via a CDN link) or installed with `npm` or other package manager.
 
-The main selling point of Bootstrap is that whole, pre-styled components like navbars, dropdowns, buttons, cards, modals etc., can be easily added to your project by simply copy-pasting code from the documentation.  Additional utilities allow you add responsive layouts via grid and flexbox, and adjust things like margin and padding.
+The main selling point of Bootstrap is that whole, pre-styled components like navbars, dropdowns, buttons, cards, modals etc., can be easily added to your project by simply copy-pasting code from the documentation.  Additional utilities allow you to add responsive layouts via grid and flexbox, and adjust things like margin and padding.
 
 ## Should I Use Bootstrap?
 To answer this question, you'll need to think about the requirements and constraints of your project.  Do you:
@@ -22,11 +22,11 @@ These are good points *for* using Bootstrap.  But when is it **not** a good choi
 Again, determining your needs/needs of your client and reviewing what Bootstrap has to offer will help you decide if it's right for you.
 
 ## Using This Tutorial
-I have adapted this tutorial from a live lesson and coding demo, so it is by no means complete. But I believe there is enough here to benefit anyone wanting to learn more about Bootstrap and decide to get started.  I will put some links to more resources at the end, should you want to continue your journey.
+I have adapted this tutorial from a live lesson and coding demo, so it is by no means complete. But I believe there is enough here to benefit anyone wanting to learn about Bootstrap and decide whether to learn more.  I will put some links to more resources at the end, should you want to continue your journey.
 
 The real key to learning and using Bootstrap is navigating the documentation, and so that is the focus of this project.
 
-Here is the wireframe for the steps below:
+Here is the wireframe we will follow in the walkthrough below:
 ![Wireframe of Bootstrap project](./bootstrap-wireframe.png)
 
 ## Setup
@@ -43,10 +43,10 @@ Here is the wireframe for the steps below:
 6. Search in the documentation for the sections on text and margins, and adjust the position of the `<h1>` element using Bootstrap classes
 7. Create a `<section>` element under the `<h1>`
 8. Inside the new section, copy/paste 3 card components from the documentation that include all the same elements in the wireframe
-9. Add a url to an image for each card (You can use https://placehold.co/) 
+9. Add a url to an image for each card (You can use https://placehold.co/ or images of your choice) 
 10. Review the section on flexbox styles in the docs, and apply flex to your section element to position the cards like the wireframe (you can use classes for flex, margin, gap, and padding to accomplish this)
 11. Create a new `<section>` element below our card section for our hero
-12. Go to https://getbootstrap.com/docs/5.3/examples/heroes/ and use the browser's dev tools to inspect the last hero to see what elements and classes were used 
+12. Go to https://getbootstrap.com/docs/5.3/examples/heroes/ and use the browser's dev tools to inspect the last hero and see what elements and classes were used 
 13. Create an `<h2>`, `<p>`, and a `<div>` to hold the two buttons (Use VS Code or a [lorem ipsum generator](https://loremipsum.io/) to create filler text for the `<p>`)
 14. Go back to the documentation on button components, and copy/paste 2 outline buttons in different colors within the `<div>`
 15. Use the classes from the example in step 12 to style the elements in the hero
