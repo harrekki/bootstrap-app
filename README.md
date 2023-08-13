@@ -2,9 +2,31 @@
 
 This project is designed for learners who are using Bootstrap for the first time and is a compliment to my coding demo; however, if you want to learn Bootstrap by jumping right in with a simple project, this is for you!  All you need is a basic understanding of HTML and CSS.
 
+## What is Bootstrap?
+Bootstrap is one of the oldest and most popular CSS frameworks.  Essentially, it is a collection of predefined classes with CSS styles and some JavaScript functions.  These classes then can be added to HTML elements to apply those styles. Bootstrap can be either imported into your project (via a CDN link) or installed with `npm` or other package manager.
+
+The main selling point of Bootstrap is that whole, pre-styled components like navbars, dropdowns, buttons, cards, modals etc., can be easily added to your project by simply copy-pasting code from the documentation.  Additional utilities allow you add responsive layouts via grid and flexbox, and adjust things like margin and padding.
+
+## Should I Use Bootstrap?
+To answer this question, you'll need to think about the requirements and constraints of your project.  Do you:
+* Want to prioritize ease of use and consistent styling?
+* Only need a simple UI to showcase backend functionality?
+* Have a short timeframe to finish your project?
+
+These are good points *for* using Bootstrap.  But when is it **not** a good choice?
+* You want a distinctive and complex UI/UX design
+* You need to heavily customize CSS
+* You only need one or two Bootstrap components
+* Load times for large files/project structure are a concern
+
+Again, determining your needs/needs of your client and reviewing what Bootstrap has to offer will help you decide if it's right for you.
+
+## Using This Tutorial
+I have adapted this tutorial from a live lesson and coding demo, so it is by no means complete. But I believe there is enough here to benefit anyone wanting to learn more about Bootstrap and decide to get started.  I will put some links to more resources at the end, should you want to continue your journey.
+
 The real key to learning and using Bootstrap is navigating the documentation, and so that is the focus of this project.
 
-Here is a wireframe to get you started:
+Here is the wireframe for the steps below:
 ![Wireframe of Bootstrap project](./bootstrap-wireframe.png)
 
 ## Setup
@@ -29,6 +51,11 @@ Here is a wireframe to get you started:
 14. Go back to the documentation on button components, and copy/paste 2 outline buttons in different colors within the `<div>`
 15. Use the classes from the example in step 12 to style the elements in the hero
 16. What else can you do?  Explore different components and utilities!
+
+## Additional Resources
+* The first of a 6-part series by The Net Ninja - [Bootstrap 5 Crash Course](https://youtu.be/O_9u1P5YjVc)
+* A great tutorial on [Bootstrap's Grid System](https://youtu.be/Wqu-d_b3K-0)
+* A quick guide to [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (not Bootstrap specific, but always helpful!)
 
 ## Issues
 If you find any problems, please create a pull request and I will review it as soon as I can.  
